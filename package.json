@@ -1,0 +1,32 @@
+{
+  "name": "projetosmg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernandesmaciel/projetosmg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hernandesmaciel/projetosmg/issues"
+  },
+  "homepage": "https://github.com/hernandesmaciel/projetosmg#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+	
+	"scripts": {
+  "start": "node src/app.js",
+  "dev": "nodemon src/app.js",
+  "test": "jest --coverage"
+}
+  }
+}
