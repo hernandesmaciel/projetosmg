@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+}
+h1 {
+  color: #006400;
+}
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #006400;
+}
+form {
+  margin-top: 20px;
+}
+input {
+  padding: 5px;
+}
+button {
+  padding: 6px 10px;
+  background-color: #006400;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #004d00;
+}
